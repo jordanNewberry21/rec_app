@@ -1,10 +1,17 @@
-﻿using System;
+﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
+
 namespace rec_app.Core.Models
 {
-    public class EmptyClass
+    public class Artist
     {
-        public EmptyClass()
+        public Artist()
         {
+            Musics = new Collection<Music>();
         }
+
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public ICollection<Music> Musics { get; set; }
     }
 }

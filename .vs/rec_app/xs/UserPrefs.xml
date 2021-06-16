@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{517417B4-E007-4FA0-A84B-02FA88F36396}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="rec_app.Core/Repositories/EmptyInterface.cs">
+    <Files>
+      <File FileName="rec_app.Core/Class1.cs" Line="1" Column="1" />
+      <File FileName="rec_app.Core/Models/EmptyClass.cs" Line="10" Column="43" />
+      <File FileName="rec_app.Core/Models/EmptyClass.cs" Line="15" Column="53" />
+      <File FileName="rec_app.Core/Repositories/EmptyInterface.cs" Line="2" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="rec_app" expanded="True">
+            <Node name="rec_app.Core" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Repositories" expanded="True">
+                <Node name="EmptyInterface.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.rec__app.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "rec_app.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/rec_app.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/rec_app.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "rec_app.Core/1.0.0": {
+      "type": "project",
+      "path": "../rec_app.Core/rec_app.Core.csproj",
+      "msbuildProject": "../rec_app.Core/rec_app.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "rec_app.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/jordannewberry/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/jordannewberry/Projects/rec_app/rec_app.Data/rec_app.Data.csproj",
+      "projectName": "rec_app.Data",
+      "projectPath": "/Users/jordannewberry/Projects/rec_app/rec_app.Data/rec_app.Data.csproj",
+      "packagesPath": "/Users/jordannewberry/.nuget/packages/",
+      "outputPath": "/Users/jordannewberry/Projects/rec_app/rec_app.Data/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/jordannewberry/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "/Users/jordannewberry/Projects/rec_app/rec_app.Core/rec_app.Core.csproj": {
+              "projectPath": "/Users/jordannewberry/Projects/rec_app/rec_app.Core/rec_app.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

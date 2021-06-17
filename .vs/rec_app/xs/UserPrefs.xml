@@ -1,13 +1,10 @@
 ﻿<Properties StartupConfiguration="{517417B4-E007-4FA0-A84B-02FA88F36396}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="rec_app.Core/IUnitOfWork.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="rec_app.Core/Services/IMusicService.cs">
     <Files>
       <File FileName="rec_app.Core/Class1.cs" Line="1" Column="1" />
-      <File FileName="rec_app.Core/Models/EmptyClass.cs" Line="10" Column="43" />
-      <File FileName="rec_app.Core/Models/EmptyClass.cs" Line="15" Column="53" />
-      <File FileName="rec_app.Core/Repositories/EmptyInterface.cs" Line="18" Column="57" />
-      <File FileName="rec_app.Core/Repositories/EmptyInterface.cs" Line="11" Column="80" />
-      <File FileName="rec_app.Core/Repositories/IArtistRepository.cs" Line="10" Column="53" />
-      <File FileName="rec_app.Core/IUnitOfWork.cs" Line="1" Column="1" />
+      <File FileName="rec_app.Core/Repositories/IArtistRepository.cs" />
+      <File FileName="rec_app.Core/IUnitOfWork.cs" Line="11" Column="33" />
+      <File FileName="rec_app.Core/Services/IMusicService.cs" Line="1" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +13,9 @@
             <Node name="rec_app.Core" expanded="True">
               <Node name="Models" expanded="True" />
               <Node name="Repositories" expanded="True" />
-              <Node name="IUnitOfWork.cs" selected="True" />
+              <Node name="Services" expanded="True">
+                <Node name="IMusicService.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

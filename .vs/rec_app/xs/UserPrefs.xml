@@ -1,17 +1,18 @@
 ﻿<Properties StartupConfiguration="{517417B4-E007-4FA0-A84B-02FA88F36396}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="rec_app.Data/Configurations/ArtistConfiguration.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="rec_app.Data/RecAppDbContext.cs">
     <Files>
       <File FileName="rec_app.Data/Configurations/MusicConfiguration.cs" Line="29" Column="36" />
-      <File FileName="rec_app.Data/Configurations/ArtistConfiguration.cs" Line="1" Column="17" />
+      <File FileName="rec_app.Data/Configurations/ArtistConfiguration.cs" Line="24" Column="37" />
+      <File FileName="rec_app.Data/DbContext.cs" Line="22" Column="64" />
+      <File FileName="rec_app.Data/Repositories/Repository.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="rec_app" expanded="True">
             <Node name="rec_app.Data" expanded="True">
-              <Node name="Configurations" expanded="True">
-                <Node name="ArtistConfiguration.cs" selected="True" />
-              </Node>
+              <Node name="Repositories" expanded="True" />
+              <Node name="RecAppDbContext.cs" selected="True" />
             </Node>
           </Node>
         </State>

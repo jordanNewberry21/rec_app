@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/eZrj1ywY+EMH49yWmrMSeKRrnnFDsP7+2TylHCo+DLzQwB3Q5am29smNMUePbxCItkreoJvFKxVfDXagc02Lw==",
+  "dgSpecHash": "eSjprDoPFDj2VTiT8Sjx9uUk7zX3y9jEhqzFRpVeIxaIq6NcaAAcl7VL4440ZYmpXO/OnaLWVVYYH309B0zLcA==",
   "success": true,
   "projectFilePath": "/Users/jordannewberry/Projects/rec_app/rec_app.Api/rec_app.Api.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,8 @@
     "/Users/jordannewberry/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
     "/Users/jordannewberry/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "/Users/jordannewberry/.nuget/packages/newtonsoft.json/10.0.1/newtonsoft.json.10.0.1.nupkg.sha512",
+    "/Users/jordannewberry/.nuget/packages/npgsql/5.0.7/npgsql.5.0.7.nupkg.sha512",
+    "/Users/jordannewberry/.nuget/packages/npgsql.entityframeworkcore.postgresql/5.0.7/npgsql.entityframeworkcore.postgresql.5.0.7.nupkg.sha512",
     "/Users/jordannewberry/.nuget/packages/runtime.native.system/4.3.0/runtime.native.system.4.3.0.nupkg.sha512",
     "/Users/jordannewberry/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "/Users/jordannewberry/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
@@ -78,6 +80,7 @@
     "/Users/jordannewberry/.nuget/packages/system.resources.resourcemanager/4.3.0/system.resources.resourcemanager.4.3.0.nupkg.sha512",
     "/Users/jordannewberry/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
     "/Users/jordannewberry/.nuget/packages/system.runtime.caching/4.7.0/system.runtime.caching.4.7.0.nupkg.sha512",
+    "/Users/jordannewberry/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
     "/Users/jordannewberry/.nuget/packages/system.runtime.extensions/4.3.0/system.runtime.extensions.4.3.0.nupkg.sha512",
     "/Users/jordannewberry/.nuget/packages/system.runtime.handles/4.3.0/system.runtime.handles.4.3.0.nupkg.sha512",
     "/Users/jordannewberry/.nuget/packages/system.runtime.interopservices/4.3.0/system.runtime.interopservices.4.3.0.nupkg.sha512",

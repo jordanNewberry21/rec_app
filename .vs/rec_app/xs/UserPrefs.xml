@@ -1,22 +1,21 @@
 ﻿<Properties StartupConfiguration="{517417B4-E007-4FA0-A84B-02FA88F36396}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="rec_app.Data/UnitOfWork.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="rec_app.Api/Startup.cs">
     <Files>
       <File FileName="rec_app.Data/Repositories/Repository.cs" Line="58" Column="10" />
-      <File FileName="rec_app.Data/Repositories/MusicRepository.cs" Line="34" Column="52" />
-      <File FileName="rec_app.Data/Repositories/ArtistRepository.cs" Line="19" Column="32" />
-      <File FileName="rec_app.Core/Repositories/IArtistRepository.cs" Line="10" Column="25" />
-      <File FileName="rec_app.Data/UnitOfWork.cs" Line="1" Column="30" />
+      <File FileName="rec_app.Api/Startup.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="rec_app" expanded="True">
+            <Node name="rec_app.Api" expanded="True">
+              <Node name="Startup.cs" selected="True" />
+            </Node>
             <Node name="rec_app.Core" expanded="True">
               <Node name="Repositories" expanded="True" />
             </Node>
             <Node name="rec_app.Data" expanded="True">
               <Node name="Repositories" expanded="True" />
-              <Node name="UnitOfWork.cs" selected="True" />
             </Node>
           </Node>
         </State>

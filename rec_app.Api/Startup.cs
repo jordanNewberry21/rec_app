@@ -11,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using rec_app.Core;
+using rec_app.Data;
 
 namespace rec_app.Api
 {
@@ -32,6 +34,7 @@ namespace rec_app.Api
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "rec_app.Api", Version = "v1" });
             });
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -39,7 +39,7 @@
       "outputPath": "/Users/jordannewberry/Projects/rec_app/rec_app.Services/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/jordannewberry/.config/NuGet/NuGet.Config"
+        "/Users/jordannewberry/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"

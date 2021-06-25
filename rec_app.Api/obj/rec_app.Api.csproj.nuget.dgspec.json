@@ -14,7 +14,7 @@
         "outputPath": "/Users/jordannewberry/Projects/rec_app/rec_app.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jordannewberry/.config/NuGet/NuGet.Config"
+          "/Users/jordannewberry/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -48,6 +48,12 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[5.0.7, )"
@@ -89,7 +95,7 @@
         "outputPath": "/Users/jordannewberry/Projects/rec_app/rec_app.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jordannewberry/.config/NuGet/NuGet.Config"
+          "/Users/jordannewberry/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -141,7 +147,7 @@
         "outputPath": "/Users/jordannewberry/Projects/rec_app/rec_app.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jordannewberry/.config/NuGet/NuGet.Config"
+          "/Users/jordannewberry/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -221,7 +227,7 @@
         "outputPath": "/Users/jordannewberry/Projects/rec_app/rec_app.Services/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jordannewberry/.config/NuGet/NuGet.Config"
+          "/Users/jordannewberry/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

@@ -1608,6 +1608,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.7",
+          "Npgsql": "5.0.7",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.7",
           "rec_app.Core": "1.0.0"
         },
         "compile": {
@@ -6045,7 +6047,7 @@
       "outputPath": "/Users/jordannewberry/Projects/rec_app/rec_app.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/jordannewberry/.nuget/NuGet/NuGet.Config"
+        "/Users/jordannewberry/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -6106,7 +6108,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
       }
     }
   }

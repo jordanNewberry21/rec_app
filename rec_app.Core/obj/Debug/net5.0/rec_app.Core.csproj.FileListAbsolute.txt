@@ -2,7 +2,6 @@
 /Users/jordannewberry/Projects/rec_app/rec_app.Core/bin/Debug/net5.0/rec_app.Core.dll
 /Users/jordannewberry/Projects/rec_app/rec_app.Core/bin/Debug/net5.0/ref/rec_app.Core.dll
 /Users/jordannewberry/Projects/rec_app/rec_app.Core/bin/Debug/net5.0/rec_app.Core.pdb
-/Users/jordannewberry/Projects/rec_app/rec_app.Core/obj/Debug/net5.0/rec_app.Core.csprojAssemblyReference.cache
 /Users/jordannewberry/Projects/rec_app/rec_app.Core/obj/Debug/net5.0/rec_app.Core.GeneratedMSBuildEditorConfig.editorconfig
 /Users/jordannewberry/Projects/rec_app/rec_app.Core/obj/Debug/net5.0/rec_app.Core.AssemblyInfoInputs.cache
 /Users/jordannewberry/Projects/rec_app/rec_app.Core/obj/Debug/net5.0/rec_app.Core.AssemblyInfo.cs
@@ -10,3 +9,4 @@
 /Users/jordannewberry/Projects/rec_app/rec_app.Core/obj/Debug/net5.0/rec_app.Core.dll
 /Users/jordannewberry/Projects/rec_app/rec_app.Core/obj/Debug/net5.0/ref/rec_app.Core.dll
 /Users/jordannewberry/Projects/rec_app/rec_app.Core/obj/Debug/net5.0/rec_app.Core.pdb
+/Users/jordannewberry/Projects/rec_app/rec_app.Core/obj/Debug/net5.0/rec_app.Core.csproj.AssemblyReference.cache

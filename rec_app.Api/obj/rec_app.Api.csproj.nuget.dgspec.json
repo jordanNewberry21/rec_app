@@ -14,7 +14,7 @@
         "outputPath": "/Users/jordannewberry/Projects/rec_app/rec_app.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jordannewberry/.nuget/NuGet/NuGet.Config"
+          "/Users/jordannewberry/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -89,7 +89,7 @@
         "outputPath": "/Users/jordannewberry/Projects/rec_app/rec_app.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jordannewberry/.nuget/NuGet/NuGet.Config"
+          "/Users/jordannewberry/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -127,7 +127,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -141,7 +141,7 @@
         "outputPath": "/Users/jordannewberry/Projects/rec_app/rec_app.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jordannewberry/.nuget/NuGet/NuGet.Config"
+          "/Users/jordannewberry/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -182,6 +182,14 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.7, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.7, )"
             }
           },
           "imports": [
@@ -199,7 +207,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -213,7 +221,7 @@
         "outputPath": "/Users/jordannewberry/Projects/rec_app/rec_app.Services/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jordannewberry/.nuget/NuGet/NuGet.Config"
+          "/Users/jordannewberry/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -255,7 +263,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
         }
       }
     }

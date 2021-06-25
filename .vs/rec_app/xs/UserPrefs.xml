@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{517417B4-E007-4FA0-A84B-02FA88F36396}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="rec_app.Data/Book.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="rec_app.Api/Startup.cs">
     <Files>
       <File FileName="rec_app.Data/StoreType.cs" Line="1" Column="1" />
       <File FileName="rec_app.Data/Cuisine.cs" Line="1" Column="1" />
       <File FileName="rec_app.Data/Book.cs" Line="1" Column="1" />
+      <File FileName="rec_app.Api/Startup.cs" Line="40" Column="34" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,6 +15,7 @@
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="appsettings.json" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
             </Node>
             <Node name="rec_app.Core" expanded="True">
               <Node name="Models" expanded="True" />
@@ -22,7 +24,6 @@
             </Node>
             <Node name="rec_app.Data" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Book.cs" selected="True" />
             </Node>
           </Node>
         </State>

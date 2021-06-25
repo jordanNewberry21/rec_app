@@ -1,0 +1,15 @@
+/Users/jordannewberry/Projects/rec_app/rec_app.Services/bin/Debug/net5.0/rec_app.Services.deps.json
+/Users/jordannewberry/Projects/rec_app/rec_app.Services/bin/Debug/net5.0/rec_app.Services.dll
+/Users/jordannewberry/Projects/rec_app/rec_app.Services/bin/Debug/net5.0/ref/rec_app.Services.dll
+/Users/jordannewberry/Projects/rec_app/rec_app.Services/bin/Debug/net5.0/rec_app.Services.pdb
+/Users/jordannewberry/Projects/rec_app/rec_app.Services/bin/Debug/net5.0/rec_app.Core.dll
+/Users/jordannewberry/Projects/rec_app/rec_app.Services/bin/Debug/net5.0/rec_app.Core.pdb
+/Users/jordannewberry/Projects/rec_app/rec_app.Services/obj/Debug/net5.0/rec_app.Services.csprojAssemblyReference.cache
+/Users/jordannewberry/Projects/rec_app/rec_app.Services/obj/Debug/net5.0/rec_app.Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jordannewberry/Projects/rec_app/rec_app.Services/obj/Debug/net5.0/rec_app.Services.AssemblyInfoInputs.cache
+/Users/jordannewberry/Projects/rec_app/rec_app.Services/obj/Debug/net5.0/rec_app.Services.AssemblyInfo.cs
+/Users/jordannewberry/Projects/rec_app/rec_app.Services/obj/Debug/net5.0/rec_app.Services.csproj.CoreCompileInputs.cache
+/Users/jordannewberry/Projects/rec_app/rec_app.Services/obj/Debug/net5.0/rec_app.Services.csproj.CopyComplete
+/Users/jordannewberry/Projects/rec_app/rec_app.Services/obj/Debug/net5.0/rec_app.Services.dll
+/Users/jordannewberry/Projects/rec_app/rec_app.Services/obj/Debug/net5.0/ref/rec_app.Services.dll
+/Users/jordannewberry/Projects/rec_app/rec_app.Services/obj/Debug/net5.0/rec_app.Services.pdb

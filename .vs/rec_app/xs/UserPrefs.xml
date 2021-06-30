@@ -1,22 +1,21 @@
 ﻿<Properties StartupConfiguration="{517417B4-E007-4FA0-A84B-02FA88F36396}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="rec_app.Data/Migrations/20210625184710_SeedMusicsAndArtistsTable.Designer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="rec_app.Services/ArtistService.cs">
     <Files>
       <File FileName="rec_app.Services/ArtistService.cs" Line="1" Column="1" />
-      <File FileName="rec_app.Services/MusicService.cs" Line="20" Column="1" />
-      <File FileName="rec_app.Data/Migrations/20210625184710_SeedMusicsAndArtistsTable.cs" Line="1" Column="1" />
-      <File FileName="rec_app.Data/Migrations/20210625184710_SeedMusicsAndArtistsTable.Designer.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="rec_app" expanded="True">
+            <Node name="rec_app.Core" expanded="True">
+              <Node name="Services" expanded="True" />
+            </Node>
             <Node name="rec_app.Data" expanded="True">
-              <Node name="Migrations" expanded="True">
-                <Node name="20210625184710_SeedMusicsAndArtistsTable.Designer.cs" selected="True" />
-              </Node>
+              <Node name="Migrations" expanded="True" />
             </Node>
             <Node name="rec_app.Services" expanded="True">
               <Node name="Dependencies" expanded="True" />
+              <Node name="ArtistService.cs" selected="True" />
             </Node>
           </Node>
         </State>

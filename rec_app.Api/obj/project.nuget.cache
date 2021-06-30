@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Mxx0ChBVJ4n3RPiEbmHKHl9n04AJ7En/VgA+1VPeNUOy8kvsU9FkQ0LNBS04muhPGyfh7ub5yM+LXGdNUSjkpw==",
+  "dgSpecHash": "/4Qjg2wc91YozzTCiopyKZY+vO9CEJcuGZYLQp+DwH5So9lLBBk9h130GGnIXdQsa38tAa6+URO4kbdljgVivg==",
   "success": true,
   "projectFilePath": "/Users/jordannewberry/Projects/rec_app/rec_app.Api/rec_app.Api.csproj",
   "expectedPackageFiles": [
@@ -39,10 +39,10 @@
     "/Users/jordannewberry/.nuget/packages/npgsql/5.0.7/npgsql.5.0.7.nupkg.sha512",
     "/Users/jordannewberry/.nuget/packages/npgsql.entityframeworkcore.postgresql/5.0.7/npgsql.entityframeworkcore.postgresql.5.0.7.nupkg.sha512",
     "/Users/jordannewberry/.nuget/packages/runtime.native.system/4.3.0/runtime.native.system.4.3.0.nupkg.sha512",
-    "/Users/jordannewberry/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
-    "/Users/jordannewberry/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
-    "/Users/jordannewberry/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "/Users/jordannewberry/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "/Users/jordannewberry/.nuget/packages/swashbuckle.aspnetcore/6.1.4/swashbuckle.aspnetcore.6.1.4.nupkg.sha512",
+    "/Users/jordannewberry/.nuget/packages/swashbuckle.aspnetcore.swagger/6.1.4/swashbuckle.aspnetcore.swagger.6.1.4.nupkg.sha512",
+    "/Users/jordannewberry/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.1.4/swashbuckle.aspnetcore.swaggergen.6.1.4.nupkg.sha512",
+    "/Users/jordannewberry/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.1.4/swashbuckle.aspnetcore.swaggerui.6.1.4.nupkg.sha512",
     "/Users/jordannewberry/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
     "/Users/jordannewberry/.nuget/packages/system.collections.concurrent/4.3.0/system.collections.concurrent.4.3.0.nupkg.sha512",
     "/Users/jordannewberry/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",

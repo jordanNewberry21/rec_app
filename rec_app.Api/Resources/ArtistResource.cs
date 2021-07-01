@@ -2,9 +2,8 @@
 namespace rec_app.Api.Resources
 {
     public class ArtistResource
-    {
-        public ArtistResource()
-        {
-        }
+    { 
+        public int Id { get; set; }
+        public string Name { get; set; }     
     }
 }

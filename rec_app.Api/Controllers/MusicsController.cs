@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using rec_app.Core.Models;
 using rec_app.Core.Services;
+using AutoMapper;
 
 namespace rec_app.Api.Controllers
 {

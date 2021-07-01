@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using rec_app.Core.Models;
 using rec_app.Core.Services;
+using rec_app.Api.Resources;
 using AutoMapper;
 
 namespace rec_app.Api.Controllers
@@ -15,14 +16,18 @@ namespace rec_app.Api.Controllers
         public async Task<ActionResult<IEnumerable<Music>>> GetAllMusics()
         {
             var musics = await _musicService.GetAllWithArtist();
-            return Ok(musics);
+            var musicResources = _mapper.Map<IEnumerable<Music>, IEnumerable<MusicResource>>(musics);
+            return Ok(musicResources);
         }
-            private readonly IMusicService _musicService;
 
-            public MusicsController(IMusicService musicService, IMapper mapper)
-            {
-                this._musicService = musicService;
-            }
+        private readonly IMusicService _musicService;
+        private readonly IMapper _mapper;
+
+        public MusicsController(IMusicService musicService, IMapper mapper)
+        {
+            this._mapper = mapper;
+            this._musicService = musicService;
         }
     }
+}
 

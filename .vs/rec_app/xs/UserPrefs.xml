@@ -1,19 +1,18 @@
 ﻿<Properties StartupConfiguration="{517417B4-E007-4FA0-A84B-02FA88F36396}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="rec_app.Api/Controllers/WeatherForecastController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="rec_app.Api/Resources/MusicResource.cs">
     <Files>
-      <File FileName="rec_app.Services/ArtistService.cs" Line="46" Column="13" />
-      <File FileName="rec_app.Api/Startup.cs" Line="10" Column="29" />
-      <File FileName="rec_app.Api/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
+      <File FileName="rec_app.Api/Controllers/MusicsController.cs" Line="24" Column="14" />
+      <File FileName="rec_app.Api/Resources/MusicResource.cs" Line="1" Column="1" />
+      <File FileName="rec_app.Api/Resources/ArtistResource.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="rec_app" expanded="True">
             <Node name="rec_app.Api" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="WeatherForecastController.cs" selected="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="MusicResource.cs" selected="True" />
               </Node>
-              <Node name="Properties" expanded="True" />
             </Node>
             <Node name="rec_app.Core" expanded="True" />
             <Node name="rec_app.Data" expanded="True" />

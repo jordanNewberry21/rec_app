@@ -35,6 +35,7 @@ namespace rec_app.Api
                 options.UseNpgsql(Configuration.GetConnectionString("Default"), x => x.MigrationsAssembly("rec_app.Data")));
             services.AddTransient<IMusicService, MusicService>();
             services.AddTransient<IArtistService, ArtistService>();
+            services.AddAutoMapper(typeof(Startup));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

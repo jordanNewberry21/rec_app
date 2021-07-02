@@ -66,3 +66,5 @@
 /Users/jordannewberry/Projects/rec_app/rec_app.Api/obj/Debug/net5.0/rec_app.Api.csproj.AssemblyReference.cache
 /Users/jordannewberry/Projects/rec_app/rec_app.Api/bin/Debug/net5.0/Humanizer.dll
 /Users/jordannewberry/Projects/rec_app/rec_app.Api/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/jordannewberry/Projects/rec_app/rec_app.Api/bin/Debug/net5.0/AutoMapper.dll
+/Users/jordannewberry/Projects/rec_app/rec_app.Api/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

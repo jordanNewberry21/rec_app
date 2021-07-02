@@ -12,11 +12,11 @@ namespace rec_app.Data.Configurations
                 .HasKey(a => a.Id);
 
             builder
-                .Property(m => m.Id)
+                .Property(a => a.Id)
                 .UseIdentityColumn();
 
             builder
-                .Property(m => m.Name)
+                .Property(a => a.Name)
                 .IsRequired()
                 .HasMaxLength(50);
 

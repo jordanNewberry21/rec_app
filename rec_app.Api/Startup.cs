@@ -9,6 +9,7 @@ using rec_app.Core;
 using rec_app.Data;
 using rec_app.Core.Services;
 using rec_app.Services;
+using Microsoft.EntityFrameworkCore.Design;
 
 namespace rec_app.Api
 {
@@ -31,11 +32,23 @@ namespace rec_app.Api
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "rec_app.Api", Version = "v1" });
             });
             services.AddScoped<IUnitOfWork, UnitOfWork>();
-            services.AddDbContext<RecAppDbContext>(options =>
+            services.AddDbContextPool<RecAppDbContext>(options =>
                 options.UseNpgsql(Configuration.GetConnectionString("Default"), x => x.MigrationsAssembly("rec_app.Data")));
             services.AddTransient<IMusicService, MusicService>();
             services.AddTransient<IArtistService, ArtistService>();
             services.AddAutoMapper(typeof(Startup));
+        }
+
+        public class DesignTimeRecAppDbContext : IDesignTimeDbContextFactory<RecAppDbContext>
+        {
+            public RecAppDbContext CreateDbContext(string[] args)
+            {
+                var optionsBuilder = new DbContextOptionsBuilder<RecAppDbContext>();
+                // pass in design time connection string here
+                optionsBuilder.UseNpgsql("Default");
+                // return design time DB context
+                return new RecAppDbContext(optionsBuilder.Options);
+            }
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

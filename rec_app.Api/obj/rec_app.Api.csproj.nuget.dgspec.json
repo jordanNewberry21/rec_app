@@ -14,7 +14,7 @@
         "outputPath": "/Users/jordannewberry/Projects/rec_app/rec_app.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jordannewberry/.nuget/NuGet/NuGet.Config"
+          "/Users/jordannewberry/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -103,7 +103,7 @@
         "outputPath": "/Users/jordannewberry/Projects/rec_app/rec_app.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jordannewberry/.nuget/NuGet/NuGet.Config"
+          "/Users/jordannewberry/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -155,7 +155,7 @@
         "outputPath": "/Users/jordannewberry/Projects/rec_app/rec_app.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jordannewberry/.nuget/NuGet/NuGet.Config"
+          "/Users/jordannewberry/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -235,7 +235,7 @@
         "outputPath": "/Users/jordannewberry/Projects/rec_app/rec_app.Services/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jordannewberry/.nuget/NuGet/NuGet.Config"
+          "/Users/jordannewberry/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

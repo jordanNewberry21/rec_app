@@ -10,6 +10,8 @@ using rec_app.Data;
 using rec_app.Core.Services;
 using rec_app.Services;
 using Microsoft.EntityFrameworkCore.Design;
+using Microsoft.EntityFrameworkCore.Migrations; 
+
 
 namespace rec_app.Api
 {
@@ -50,6 +52,12 @@ namespace rec_app.Api
                 return new RecAppDbContext(optionsBuilder.Options);
             }
         }
+
+        //public class MyDesignTimeServices : IDesignTimeServices
+        //{
+        //    public void ConfigureDesignTimeServices(IServiceCollection services)
+        //        => services.AddSingleton<IMigrationsCodeGenerator, MyMigrationsCodeGenerator>();
+        //}
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

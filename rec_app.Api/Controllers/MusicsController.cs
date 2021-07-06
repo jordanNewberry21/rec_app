@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using rec_app.Core.Models;
 using rec_app.Core.Services;
 using rec_app.Api.Resources;
+using rec_app.Api.Validators;
 using AutoMapper;
 
 namespace rec_app.Api.Controllers
@@ -33,6 +34,26 @@ namespace rec_app.Api.Controllers
         public async Task<ActionResult<MusicResource>> GetMusicById(int id)
         {
             var music = await _musicService.GetMusicById(id);
+            var musicResource = _mapper.Map<Music, MusicResource>(music);
+
+            return Ok(musicResource);
+        }
+
+        [HttpPost("")]
+        public async Task<ActionResult<MusicResource>> CreateMusic([FromBody] SaveMusicResource saveMusicResource)
+        {
+            var validator = new SaveMusicResourceValidator();
+            var validationResult = await validator.ValidateAsync(saveMusicResource);
+
+            if (!validationResult.IsValid)
+                return BadRequest(validationResult.Errors);
+
+            var musicToCreate = _mapper.Map<SaveMusicResource, Music>(saveMusicResource);
+
+            var newMusic = await _musicService.CreateMusic(musicToCreate);
+
+            var music = await _musicService.GetMusicById(newMusic.Id);
+
             var musicResource = _mapper.Map<Music, MusicResource>(music);
 
             return Ok(musicResource);

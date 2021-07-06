@@ -1,19 +1,20 @@
 ﻿<Properties StartupConfiguration="{517417B4-E007-4FA0-A84B-02FA88F36396}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="rec_app.Api/Validators/SaveMusicResourceValidator.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="rec_app.Api/Controllers/MusicsController.cs">
     <Files>
       <File FileName="rec_app.Api/Resources/SaveMusicResource.cs" Line="6" Column="42" />
       <File FileName="rec_app.Api/Resources/SaveArtistResource.cs" Line="5" Column="39" />
       <File FileName="rec_app.Api/Mapping/MappingProfile.cs" Line="15" Column="53" />
       <File FileName="rec_app.Api/Validators/SaveArtistResourceValidator.cs" Line="12" Column="36" />
-      <File FileName="rec_app.Api/Validators/SaveMusicResourceValidator.cs" Line="2" Column="14" />
+      <File FileName="rec_app.Api/Validators/SaveMusicResourceValidator.cs" Line="16" Column="60" />
+      <File FileName="rec_app.Api/Controllers/MusicsController.cs" Line="28" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="rec_app" expanded="True">
             <Node name="rec_app.Api" expanded="True">
-              <Node name="Validators" expanded="True">
-                <Node name="SaveMusicResourceValidator.cs" selected="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="MusicsController.cs" selected="True" />
               </Node>
             </Node>
           </Node>

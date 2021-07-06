@@ -28,6 +28,15 @@ namespace rec_app.Api.Controllers
             this._mapper = mapper;
             this._musicService = musicService;
         }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<MusicResource>> GetMusicById(int id)
+        {
+            var music = await _musicService.GetMusicById(id);
+            var musicResource = _mapper.Map<Music, MusicResource>(music);
+
+            return Ok(musicResource);
+        }
     }
 }
 

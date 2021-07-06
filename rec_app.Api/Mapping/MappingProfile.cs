@@ -11,6 +11,8 @@ namespace rec_app.Api.Mapping
             // Domain to Resource
             CreateMap<Music, MusicResource>();
             CreateMap<Artist, ArtistResource>();
+            CreateMap<SaveMusicResource, Music>();
+            CreateMap<SaveArtistResource, Artist>();
 
             // Resource to Domain
             CreateMap<MusicResource, Music>();

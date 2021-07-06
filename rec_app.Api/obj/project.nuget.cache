@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Canxzro/Ua0G5yImVQTAdOr4LTStKFcRz/4JJe7djtxA59uOlp8qfiEbEOaA0oJWiiyULFmw0ZBbNGTkV81VIg==",
+  "dgSpecHash": "AeaAIniyCpUwtn9hP3SApys8VLp6+CPGaeeUBM71cQJt22Hn8oNvSFW1CCZC4bSxjtL7u11xs+SVFh6yq/OQ3g==",
   "success": true,
   "projectFilePath": "/Users/jordannewberry/Projects/rec_app/rec_app.Api/rec_app.Api.csproj",
   "expectedPackageFiles": [
     "/Users/jordannewberry/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
     "/Users/jordannewberry/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "/Users/jordannewberry/.nuget/packages/fluentvalidation/10.2.3/fluentvalidation.10.2.3.nupkg.sha512",
     "/Users/jordannewberry/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/jordannewberry/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/jordannewberry/.nuget/packages/microsoft.data.sqlclient/2.0.1/microsoft.data.sqlclient.2.0.1.nupkg.sha512",

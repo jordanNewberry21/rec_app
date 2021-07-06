@@ -7,6 +7,7 @@
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="10.1.1" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="FluentValidation" Version="10.2.3" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.7" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.7">
@@ -25,9 +26,11 @@
     <None Remove="Microsoft.EntityFrameworkCore.Design" />
     <None Remove="Resources\" />
     <None Remove="Mapping\" />
+    <None Remove="Validators\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="Mapping\" />
+    <Folder Include="Validators\" />
   </ItemGroup>
 </Project>

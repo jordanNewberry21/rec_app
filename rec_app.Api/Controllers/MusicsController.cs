@@ -84,6 +84,22 @@ namespace rec_app.Api.Controllers
 
             return Ok(updatedMusicResource);
         }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteMusic(int id)
+        {
+            if (id == 0)
+                return BadRequest();
+
+            var music = await _musicService.GetMusicById(id);
+
+            if (music == null)
+                return NotFound();
+
+            await _musicService.DeleteMusic(music);
+
+            return NoContent();
+        }
     }
 }
 

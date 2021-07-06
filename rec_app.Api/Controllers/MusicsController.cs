@@ -58,6 +58,32 @@ namespace rec_app.Api.Controllers
 
             return Ok(musicResource);
         }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult<MusicResource>> UpdateMusic(int id, [FromBody] SaveMusicResource saveMusicResource)
+        {
+            var validator = new SaveMusicResourceValidator();
+            var validationResult = await validator.ValidateAsync(saveMusicResource);
+
+            var requestIsInvalid = id == 0 || !validationResult.IsValid;
+
+            if (requestIsInvalid)
+                return BadRequest(validationResult.Errors);
+
+            var musicToUpdate = await _musicService.GetMusicById(id);
+
+            if (musicToUpdate == null)
+                return NotFound();
+
+            var music = _mapper.Map<SaveMusicResource, Music>(saveMusicResource);
+
+            await _musicService.UpdateMusic(musicToUpdate, music);
+
+            var updatedMusic = await _musicService.GetMusicById(id);
+            var updatedMusicResource = _mapper.Map<Music, MusicResource>(updatedMusic);
+
+            return Ok(updatedMusicResource);
+        }
     }
 }
 
